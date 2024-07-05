@@ -1,0 +1,143 @@
+.bannerIndex {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+.banner {
+  width: 1220px;
+  height: 400px;
+  display: flex;
+  background-color: #f3f3f3;
+  margin-top: 60px;
+}
+.bannerLeft {
+  width: 610px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #f1f1f1;
+}
+
+.bannerLeftDescrip h1 {
+  /* width: 408px; */
+  width: 80%;
+  height: 110px;
+  /* font-size: 4.8rem; */
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 45px;
+  margin-bottom: 5px;
+}
+.ulShowProducts h2 {
+  color: #1a1a1a;
+  margin-left: 20px;
+}
+
+.bannerLeftDescrip strong {
+  font-weight: 600;
+}
+
+.bannerLeftDescrip p {
+  width: 510px;
+  height: 48px;
+  color: #4a4a4a;
+  font-size: 15px;
+}
+.shopNow {
+  width: 122px;
+  height: 50px;
+  color: #f1f1f1;
+  cursor: pointer;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 65px;
+  background-color: black;
+}
+.bannerRight {
+  width: 610px;
+  height: 400px;
+}
+.bannerRight img {
+  width: 610px;
+  height: 400px;
+}
+.featuredSeeAllPart {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.featuredSeeAll {
+  width: 1140px;
+  height: 80px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.featuredSeeAll h1 {
+  color: #1a1a1a;
+  font-size: 24px;
+
+  font-weight: 500;
+}
+.featuredSee {
+  width: 59px;
+  height: 20px;
+  color: #101010;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.showProducts {
+  width: 100%;
+  height: 620px;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  text-decoration: none;
+}
+.ulShowProducts {
+  width: 1165px;
+  height: 640px;
+  display: flex;
+
+  flex-wrap: wrap;
+  /* align-content: space-around; */
+  list-style: none;
+}
+.ulShowProducts p {
+  color: #818181;
+}
+
+.listProducts {
+  width: 367px;
+  height: 300px;
+  border: 1px solid #e1e1e1;
+  margin-left: 15px;
+}
+.productImgHome {
+  width: 365px;
+  height: 200px;
+  background: #f1f1f1;
+  object-fit: cover;
+}
+.productImgHome img {
+  width: 365px;
+  height: 200px;
+
+  overflow: hidden;
+}
+.ulShowProducts a {
+  text-decoration: none;
+}
+.productName h2 {
+  margin-left: 20px;
+}
+.productBrand p {
+  margin-left: 20px;
+}

@@ -1,0 +1,80 @@
+.shopPageProducts {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+}
+
+.ulShopProducts {
+  /* width: 1220px; */
+  width: 90%;
+  height: 714px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  align-content: flex-start;
+}
+.listProduct {
+  width: 164px;
+  height: 230px;
+  border: 1px solid #e1e1e1;
+  text-align: center;
+  background-color: #fff;
+  list-style: none;
+  margin-left: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.productImgShop {
+  width: 100%;
+  height: 100px;
+  background: #f6f6f6;
+}
+.productImgShop img {
+  width: 100%;
+  height: 100px;
+}
+.productNameShop {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #1a1a1a;
+}
+.productBrandShop {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #b6b6b6;
+  font-style: italic;
+  margin-top: 5px;
+}
+.productPrice {
+  width: 100%;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  font-size: 14px;
+  margin-top: 13px;
+  color: #000;
+}
+.ulShopProducts a {
+  text-decoration: none;
+}
+
+.addBasket {
+  width: 100%;
+  height: 45px;
+  background-color: black;
+  margin-top: -1px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
