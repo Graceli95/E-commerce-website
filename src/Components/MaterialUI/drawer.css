@@ -1,12 +1,12 @@
 .css-1hskriy {
   width: 600px !important;
   height: 100vh;
-  background-color: bisque;
+  
 }
 .box {
   width: 600px !important;
   height: 100vh;
-  /* background-color: pink; */
+ 
 }
 .basket {
   width: 100% !important;
@@ -15,7 +15,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
-  background-color: aquamarine;
+  
 }
 .basket .left h1 {
   font-size: 20px;
@@ -55,7 +55,7 @@
   height: 100px;
   list-style: none;
   display: flex;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 .quantity {
   width: 140px;
@@ -83,8 +83,6 @@
 .quantityRight {
   width: 90px;
   height: 90px;
-
-  background-color: pink;
 }
 .quantityRight img {
   width: 100%;
@@ -116,7 +114,7 @@
   line-height: 90px;
   display: flex;
   justify-content: space-between;
-  background-color: antiquewhite;
+ 
 }
 .itemPrice {
   width: 60px;
