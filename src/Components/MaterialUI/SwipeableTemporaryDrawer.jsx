@@ -111,7 +111,7 @@ export default function SwipeableTemporaryDrawer() {
                   <div className="quantityWord">Quantity</div>
                   <div className="itemQuantity">{item.quantity}</div>
                 </div>
-                <div className="sizeColor">
+                {/* <div className="sizeColor">
                   <div className="itemSize">
                     <div className="size">Size</div>
                     <div className="sizeNumber"></div>
@@ -120,7 +120,7 @@ export default function SwipeableTemporaryDrawer() {
                     <div className="color">Color</div>
                     <div className="colorSelect">{item.color[0]}</div>
                   </div>
-                </div>
+                </div> */}
                 <div className="price">
                   <div className="itemPrice">${item.price * item.quantity}</div>
                   <div
@@ -134,6 +134,9 @@ export default function SwipeableTemporaryDrawer() {
             );
           })}
         </ul>
+        <div className="orderTotal">
+          <h3>Order Total is </h3>
+        </div>
       </div>
     </Box>
   );

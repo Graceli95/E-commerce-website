@@ -9,7 +9,8 @@ export default function Featured() {
   let datas = shareFeatured();
   return (
     <>
-      <div className="bannerIndex">
+    <div className="featuredPage">
+       <div className="bannerIndex">
         <div className="bannerFeatured">
           <div className="bannerLeftFeatured">
             <h1>Featured Products</h1>
@@ -41,6 +42,9 @@ export default function Featured() {
           })}
         </ul>
       </div>
+    </div>
+
+     
     </>
   );
 }
