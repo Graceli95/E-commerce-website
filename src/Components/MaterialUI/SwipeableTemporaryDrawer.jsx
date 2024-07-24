@@ -41,8 +41,12 @@ export default function SwipeableTemporaryDrawer() {
   let handleRemoveItem = (parameter) => {
     dispatch(removeItems(parameter));
   };
-  // 计算商品总和
-  let getTotalPrice = () => {};
+  // 计算购物车里面所有商品价格总和
+  let getTotalPrice = () => {
+    return products.reduce((total, item)=>{
+      return total + item.price * item.quantity
+    }, 0)
+  };
   const [state, setState] = React.useState({
     right: false,
   });
@@ -135,7 +139,7 @@ export default function SwipeableTemporaryDrawer() {
           })}
         </ul>
         <div className="orderTotal">
-          <h3>Order Total is </h3>
+          <h3>Order Total is ${getTotalPrice()}</h3>
         </div>
       </div>
     </Box>
