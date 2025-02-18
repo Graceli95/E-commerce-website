@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Website version available to view on [https://graceli95.github.io/e-commerce](https://graceli95.github.io/e-commerce)
+
 ## Available Scripts
 
 In the project directory, you can run:
